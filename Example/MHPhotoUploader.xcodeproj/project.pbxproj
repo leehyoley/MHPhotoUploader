@@ -346,14 +346,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MHPhotoUploader_Example/Pods-MHPhotoUploader_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MHPhotoUploader/MHPhotoUploader.bundle",
+				"${PODS_ROOT}/../../MHPhotoUploader/Assets/photo_add@2x.png",
+				"${PODS_ROOT}/../../MHPhotoUploader/Assets/photo_delete@2x.png",
 				"${PODS_ROOT}/ZLPhotoBrowser/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoActionSheet.xib",
 				"${PODS_ROOT}/ZLPhotoBrowser/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowserCell.xib",
 				"${PODS_ROOT}/ZLPhotoBrowser/ZLPhotoBrowser/PhotoBrowser/resource/ZLPhotoBrowser.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MHPhotoUploader.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/photo_add@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/photo_delete@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZLPhotoActionSheet.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZLPhotoBrowserCell.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZLPhotoBrowser.bundle",

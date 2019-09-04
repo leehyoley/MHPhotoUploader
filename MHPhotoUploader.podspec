@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MHPhotoUploader'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = '图片选择后自动上传并生成id'
   s.homepage         = 'https://github.com/leehyoley/MHPhotoUploader'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,12 +17,8 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'MHPhotoUploader/Classes/**/*'
-  
-  s.resource_bundles = {
-     'MHPhotoUploader' => ['MHPhotoUploader/Assets/*.png']
-  }
-
+  s.source_files = 'MHPhotoUploader/Classes/**/*.{m,h}'
+  s.resource     = 'MHPhotoUploader/Assets/**/*.png'
   s.dependency 'SDWebImage', '~> 4.4.6'
   s.dependency 'Masonry'
   s.dependency 'MBProgressHUD'
