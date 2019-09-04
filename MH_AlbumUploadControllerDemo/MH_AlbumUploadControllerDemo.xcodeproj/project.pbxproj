@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACFA859231F87910040CAF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA858231F87910040CAF4 /* AppDelegate.m */; };
+		0ACFA85C231F87910040CAF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA85B231F87910040CAF4 /* ViewController.m */; };
+		0ACFA85F231F87910040CAF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACFA85D231F87910040CAF4 /* Main.storyboard */; };
+		0ACFA861231F87920040CAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACFA860231F87920040CAF4 /* Assets.xcassets */; };
+		0ACFA864231F87920040CAF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACFA862231F87920040CAF4 /* LaunchScreen.storyboard */; };
+		0ACFA867231F87920040CAF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA866231F87920040CAF4 /* main.m */; };
+		0ACFA871231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA870231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests.m */; };
+		0ACFA87C231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA87B231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests.m */; };
+		0ACFA897231F87CC0040CAF4 /* MH_AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA88B231F87CC0040CAF4 /* MH_AlbumModel.m */; };
+		0ACFA898231F87CC0040CAF4 /* MH_PhotoAddCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA88E231F87CC0040CAF4 /* MH_PhotoAddCollectionViewCell.m */; };
+		0ACFA899231F87CC0040CAF4 /* MH_PhotoCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA88F231F87CC0040CAF4 /* MH_PhotoCollectionCell.m */; };
+		0ACFA89A231F87CC0040CAF4 /* MHPhotoUploaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA893231F87CC0040CAF4 /* MHPhotoUploaderController.m */; };
+		0ACFA89B231F87CC0040CAF4 /* MHPhotoUploaderHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA894231F87CC0040CAF4 /* MHPhotoUploaderHandle.m */; };
+		798F307AE6E687CCDBF24643 /* libPods-MH_AlbumUploadControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE5C054D7FF520A678F1794 /* libPods-MH_AlbumUploadControllerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0ACFA86D231F87920040CAF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACFA84C231F87910040CAF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ACFA853231F87910040CAF4;
+			remoteInfo = MH_AlbumUploadControllerDemo;
+		};
+		0ACFA878231F87920040CAF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACFA84C231F87910040CAF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ACFA853231F87910040CAF4;
+			remoteInfo = MH_AlbumUploadControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ACFA854231F87910040CAF4 /* MH_AlbumUploadControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MH_AlbumUploadControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACFA857231F87910040CAF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0ACFA858231F87910040CAF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0ACFA85A231F87910040CAF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0ACFA85B231F87910040CAF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0ACFA85E231F87910040CAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ACFA860231F87920040CAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ACFA863231F87920040CAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ACFA865231F87920040CAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACFA866231F87920040CAF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0ACFA86C231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MH_AlbumUploadControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACFA870231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MH_AlbumUploadControllerDemoTests.m; sourceTree = "<group>"; };
+		0ACFA872231F87920040CAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACFA877231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MH_AlbumUploadControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACFA87B231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MH_AlbumUploadControllerDemoUITests.m; sourceTree = "<group>"; };
+		0ACFA87D231F87920040CAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACFA88B231F87CC0040CAF4 /* MH_AlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MH_AlbumModel.m; sourceTree = "<group>"; };
+		0ACFA88C231F87CC0040CAF4 /* MH_AlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MH_AlbumModel.h; sourceTree = "<group>"; };
+		0ACFA88E231F87CC0040CAF4 /* MH_PhotoAddCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MH_PhotoAddCollectionViewCell.m; sourceTree = "<group>"; };
+		0ACFA88F231F87CC0040CAF4 /* MH_PhotoCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MH_PhotoCollectionCell.m; sourceTree = "<group>"; };
+		0ACFA890231F87CC0040CAF4 /* MH_PhotoCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MH_PhotoCollectionCell.h; sourceTree = "<group>"; };
+		0ACFA891231F87CC0040CAF4 /* MH_PhotoAddCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MH_PhotoAddCollectionViewCell.h; sourceTree = "<group>"; };
+		0ACFA893231F87CC0040CAF4 /* MHPhotoUploaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHPhotoUploaderController.m; sourceTree = "<group>"; };
+		0ACFA894231F87CC0040CAF4 /* MHPhotoUploaderHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHPhotoUploaderHandle.m; sourceTree = "<group>"; };
+		0ACFA895231F87CC0040CAF4 /* MHPhotoUploaderHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHPhotoUploaderHandle.h; sourceTree = "<group>"; };
+		0ACFA896231F87CC0040CAF4 /* MHPhotoUploaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHPhotoUploaderController.h; sourceTree = "<group>"; };
+		86721C3802166ADC7075F3F8 /* Pods-MH_AlbumUploadControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MH_AlbumUploadControllerDemo.debug.xcconfig"; path = "Target Support Files/Pods-MH_AlbumUploadControllerDemo/Pods-MH_AlbumUploadControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		89166F26F502B9D2E57E519F /* Pods-MH_AlbumUploadControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MH_AlbumUploadControllerDemo.release.xcconfig"; path = "Target Support Files/Pods-MH_AlbumUploadControllerDemo/Pods-MH_AlbumUploadControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CCE5C054D7FF520A678F1794 /* libPods-MH_AlbumUploadControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MH_AlbumUploadControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ACFA851231F87910040CAF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798F307AE6E687CCDBF24643 /* libPods-MH_AlbumUploadControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACFA869231F87920040CAF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACFA874231F87920040CAF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ACFA84B231F87910040CAF4 = {
+			isa = PBXGroup;
+			children = (
+				0ACFA856231F87910040CAF4 /* MH_AlbumUploadControllerDemo */,
+				0ACFA86F231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests */,
+				0ACFA87A231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests */,
+				0ACFA855231F87910040CAF4 /* Products */,
+				F47F46EECD461FD7528BCE9A /* Pods */,
+				6B4B833C62ABA07A119D68A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0ACFA855231F87910040CAF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA854231F87910040CAF4 /* MH_AlbumUploadControllerDemo.app */,
+				0ACFA86C231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests.xctest */,
+				0ACFA877231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ACFA856231F87910040CAF4 /* MH_AlbumUploadControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA889231F87CC0040CAF4 /* MHPhotoUploader */,
+				0ACFA857231F87910040CAF4 /* AppDelegate.h */,
+				0ACFA858231F87910040CAF4 /* AppDelegate.m */,
+				0ACFA85A231F87910040CAF4 /* ViewController.h */,
+				0ACFA85B231F87910040CAF4 /* ViewController.m */,
+				0ACFA85D231F87910040CAF4 /* Main.storyboard */,
+				0ACFA860231F87920040CAF4 /* Assets.xcassets */,
+				0ACFA862231F87920040CAF4 /* LaunchScreen.storyboard */,
+				0ACFA865231F87920040CAF4 /* Info.plist */,
+				0ACFA866231F87920040CAF4 /* main.m */,
+			);
+			path = MH_AlbumUploadControllerDemo;
+			sourceTree = "<group>";
+		};
+		0ACFA86F231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA870231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests.m */,
+				0ACFA872231F87920040CAF4 /* Info.plist */,
+			);
+			path = MH_AlbumUploadControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		0ACFA87A231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA87B231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests.m */,
+				0ACFA87D231F87920040CAF4 /* Info.plist */,
+			);
+			path = MH_AlbumUploadControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		0ACFA889231F87CC0040CAF4 /* MHPhotoUploader */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA89C231F8E5E0040CAF4 /* Resource */,
+				0ACFA88A231F87CC0040CAF4 /* Model */,
+				0ACFA88D231F87CC0040CAF4 /* View */,
+				0ACFA892231F87CC0040CAF4 /* ViewController */,
+			);
+			path = MHPhotoUploader;
+			sourceTree = "<group>";
+		};
+		0ACFA88A231F87CC0040CAF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA88B231F87CC0040CAF4 /* MH_AlbumModel.m */,
+				0ACFA88C231F87CC0040CAF4 /* MH_AlbumModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0ACFA88D231F87CC0040CAF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA88E231F87CC0040CAF4 /* MH_PhotoAddCollectionViewCell.m */,
+				0ACFA88F231F87CC0040CAF4 /* MH_PhotoCollectionCell.m */,
+				0ACFA890231F87CC0040CAF4 /* MH_PhotoCollectionCell.h */,
+				0ACFA891231F87CC0040CAF4 /* MH_PhotoAddCollectionViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0ACFA892231F87CC0040CAF4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA893231F87CC0040CAF4 /* MHPhotoUploaderController.m */,
+				0ACFA894231F87CC0040CAF4 /* MHPhotoUploaderHandle.m */,
+				0ACFA895231F87CC0040CAF4 /* MHPhotoUploaderHandle.h */,
+				0ACFA896231F87CC0040CAF4 /* MHPhotoUploaderController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0ACFA89C231F8E5E0040CAF4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6B4B833C62ABA07A119D68A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE5C054D7FF520A678F1794 /* libPods-MH_AlbumUploadControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F47F46EECD461FD7528BCE9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86721C3802166ADC7075F3F8 /* Pods-MH_AlbumUploadControllerDemo.debug.xcconfig */,
+				89166F26F502B9D2E57E519F /* Pods-MH_AlbumUploadControllerDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ACFA853231F87910040CAF4 /* MH_AlbumUploadControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACFA880231F87920040CAF4 /* Build configuration list for PBXNativeTarget "MH_AlbumUploadControllerDemo" */;
+			buildPhases = (
+				68DE0191436A33F16AC3F69C /* [CP] Check Pods Manifest.lock */,
+				0ACFA850231F87910040CAF4 /* Sources */,
+				0ACFA851231F87910040CAF4 /* Frameworks */,
+				0ACFA852231F87910040CAF4 /* Resources */,
+				C7B39809E70F3F34C0EADA66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MH_AlbumUploadControllerDemo;
+			productName = MH_AlbumUploadControllerDemo;
+			productReference = 0ACFA854231F87910040CAF4 /* MH_AlbumUploadControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0ACFA86B231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACFA883231F87920040CAF4 /* Build configuration list for PBXNativeTarget "MH_AlbumUploadControllerDemoTests" */;
+			buildPhases = (
+				0ACFA868231F87920040CAF4 /* Sources */,
+				0ACFA869231F87920040CAF4 /* Frameworks */,
+				0ACFA86A231F87920040CAF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ACFA86E231F87920040CAF4 /* PBXTargetDependency */,
+			);
+			name = MH_AlbumUploadControllerDemoTests;
+			productName = MH_AlbumUploadControllerDemoTests;
+			productReference = 0ACFA86C231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0ACFA876231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACFA886231F87920040CAF4 /* Build configuration list for PBXNativeTarget "MH_AlbumUploadControllerDemoUITests" */;
+			buildPhases = (
+				0ACFA873231F87920040CAF4 /* Sources */,
+				0ACFA874231F87920040CAF4 /* Frameworks */,
+				0ACFA875231F87920040CAF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ACFA879231F87920040CAF4 /* PBXTargetDependency */,
+			);
+			name = MH_AlbumUploadControllerDemoUITests;
+			productName = MH_AlbumUploadControllerDemoUITests;
+			productReference = 0ACFA877231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ACFA84C231F87910040CAF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = li;
+				TargetAttributes = {
+					0ACFA853231F87910040CAF4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0ACFA86B231F87920040CAF4 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0ACFA853231F87910040CAF4;
+					};
+					0ACFA876231F87920040CAF4 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0ACFA853231F87910040CAF4;
+					};
+				};
+			};
+			buildConfigurationList = 0ACFA84F231F87910040CAF4 /* Build configuration list for PBXProject "MH_AlbumUploadControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ACFA84B231F87910040CAF4;
+			productRefGroup = 0ACFA855231F87910040CAF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ACFA853231F87910040CAF4 /* MH_AlbumUploadControllerDemo */,
+				0ACFA86B231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests */,
+				0ACFA876231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ACFA852231F87910040CAF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACFA864231F87920040CAF4 /* LaunchScreen.storyboard in Resources */,
+				0ACFA861231F87920040CAF4 /* Assets.xcassets in Resources */,
+				0ACFA85F231F87910040CAF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACFA86A231F87920040CAF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACFA875231F87920040CAF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68DE0191436A33F16AC3F69C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MH_AlbumUploadControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B39809E70F3F34C0EADA66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MH_AlbumUploadControllerDemo/Pods-MH_AlbumUploadControllerDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MH_AlbumUploadControllerDemo/Pods-MH_AlbumUploadControllerDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MH_AlbumUploadControllerDemo/Pods-MH_AlbumUploadControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ACFA850231F87910040CAF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACFA897231F87CC0040CAF4 /* MH_AlbumModel.m in Sources */,
+				0ACFA899231F87CC0040CAF4 /* MH_PhotoCollectionCell.m in Sources */,
+				0ACFA898231F87CC0040CAF4 /* MH_PhotoAddCollectionViewCell.m in Sources */,
+				0ACFA89B231F87CC0040CAF4 /* MHPhotoUploaderHandle.m in Sources */,
+				0ACFA85C231F87910040CAF4 /* ViewController.m in Sources */,
+				0ACFA867231F87920040CAF4 /* main.m in Sources */,
+				0ACFA89A231F87CC0040CAF4 /* MHPhotoUploaderController.m in Sources */,
+				0ACFA859231F87910040CAF4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACFA868231F87920040CAF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACFA871231F87920040CAF4 /* MH_AlbumUploadControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ACFA873231F87920040CAF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACFA87C231F87920040CAF4 /* MH_AlbumUploadControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ACFA86E231F87920040CAF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ACFA853231F87910040CAF4 /* MH_AlbumUploadControllerDemo */;
+			targetProxy = 0ACFA86D231F87920040CAF4 /* PBXContainerItemProxy */;
+		};
+		0ACFA879231F87920040CAF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ACFA853231F87910040CAF4 /* MH_AlbumUploadControllerDemo */;
+			targetProxy = 0ACFA878231F87920040CAF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0ACFA85D231F87910040CAF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ACFA85E231F87910040CAF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ACFA862231F87920040CAF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ACFA863231F87920040CAF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ACFA87E231F87920040CAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0ACFA87F231F87920040CAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ACFA881231F87920040CAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86721C3802166ADC7075F3F8 /* Pods-MH_AlbumUploadControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MH_AlbumUploadControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdf.MH-AlbumUploadControllerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0ACFA882231F87920040CAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89166F26F502B9D2E57E519F /* Pods-MH_AlbumUploadControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MH_AlbumUploadControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdf.MH-AlbumUploadControllerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0ACFA884231F87920040CAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MH_AlbumUploadControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdf.MH-AlbumUploadControllerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MH_AlbumUploadControllerDemo.app/MH_AlbumUploadControllerDemo";
+			};
+			name = Debug;
+		};
+		0ACFA885231F87920040CAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MH_AlbumUploadControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdf.MH-AlbumUploadControllerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MH_AlbumUploadControllerDemo.app/MH_AlbumUploadControllerDemo";
+			};
+			name = Release;
+		};
+		0ACFA887231F87920040CAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MH_AlbumUploadControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdf.MH-AlbumUploadControllerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MH_AlbumUploadControllerDemo;
+			};
+			name = Debug;
+		};
+		0ACFA888231F87920040CAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MH_AlbumUploadControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sdf.MH-AlbumUploadControllerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MH_AlbumUploadControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ACFA84F231F87910040CAF4 /* Build configuration list for PBXProject "MH_AlbumUploadControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACFA87E231F87920040CAF4 /* Debug */,
+				0ACFA87F231F87920040CAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACFA880231F87920040CAF4 /* Build configuration list for PBXNativeTarget "MH_AlbumUploadControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACFA881231F87920040CAF4 /* Debug */,
+				0ACFA882231F87920040CAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACFA883231F87920040CAF4 /* Build configuration list for PBXNativeTarget "MH_AlbumUploadControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACFA884231F87920040CAF4 /* Debug */,
+				0ACFA885231F87920040CAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACFA886231F87920040CAF4 /* Build configuration list for PBXNativeTarget "MH_AlbumUploadControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACFA887231F87920040CAF4 /* Debug */,
+				0ACFA888231F87920040CAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ACFA84C231F87910040CAF4 /* Project object */;
+}
