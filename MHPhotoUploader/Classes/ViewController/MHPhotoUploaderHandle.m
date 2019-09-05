@@ -33,6 +33,21 @@
     _urlString = urlString;
 }
 /**
+ 检测是否所有上传请求已完成
+
+ @return 是否完成
+ */
+-(BOOL)isCompleteAllRequset{
+    __block BOOL isComplete = YES;
+    [self.modelPoolArray enumerateObjectsUsingBlock:^(MH_AlbumModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (!obj.fileId.length) {
+            isComplete  = NO;
+            *stop = YES;
+        }
+    }];
+    return isComplete;
+}
+/**
  检查是否有需要上传的图片，若无，清除定时器
  */
 -(void)checkModelPoolUploadIfNeed{
@@ -100,17 +115,17 @@
 }
 
 -(void)requestUpdateSuccess:(void (^)(NSArray<MH_AlbumModel *> *modelArray))success failure:(void (^)(void))failure{
-    if (self.isRequseting) {
+    if ([self isCompleteAllRequset]) {
+        success(self.modelPoolArray);
+    }else{
         self.successBlock = success;
         //等5秒，还是不能成功，提示上传失败
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            if (self.isRequseting) {
+            if (![self isCompleteAllRequset]) {
                 self.successBlock = nil;
                 failure();
             }
         });
-    }else{
-        success(self.modelPoolArray);
     }
 }
 
