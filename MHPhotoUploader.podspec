@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MHPhotoUploader'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = '图片选择后自动上传并生成id'
   s.homepage         = 'https://github.com/leehyoley/MHPhotoUploader'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
