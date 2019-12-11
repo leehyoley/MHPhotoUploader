@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.dependency 'SDWebImage', '~> 4.4.6'
   s.dependency 'Masonry'
   s.dependency 'MBProgressHUD'
-  s.dependency 'ZLPhotoBrowser'
+  s.dependency 'ZLPhotoBrowser', '~> 3.0.1'
   s.dependency 'KSPhotoBrowser'
   s.dependency 'MHBase'
   s.dependency 'VMNetworking'
